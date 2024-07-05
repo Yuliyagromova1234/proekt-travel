@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet/less" href="css/style.less">
+    <link rel="stylesheet/less" href="css/adaptive.less">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <!--    <link rel="stylesheet" href="dist/main-style.min.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<section class="main">
+    <section class="header-beginning">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/balloon.png" alt="Logo">
+                    <div class="logo-text">
+                        <img src="images/cappadocia.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="burger" id="burger">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="40px" height="22px">
+                        <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                              d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"/>
+                        <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                              d="M0.000,10.000 L40.000,10.000 L40.000,12.000 L0.000,12.000 L0.000,10.000 Z"/>
+                        <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                              d="M0.000,20.000 L40.000,20.000 L40.000,22.000 L0.000,22.000 L0.000,20.000 Z"/>
+                    </svg>
+                </div>
+                <nav class="menu-main">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="#" class="see-program">Программа</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="schedule">Расписание</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="photoMenu">Фото</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="gratitude">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="telephone">
+                    <div class="phone">
+                        +375 (29) 586-87-87
+                    </div>
+                    <div class="order-call">
+                        <img src="images/telephone.png" alt="telephone">
+                        <div class="ring">Заказать звонок</div>
+                    </div>
+                </div>
+                <div id="menu">
+                    <div class="close">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                                        <g>
+                                        	<g>
+                                        		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                        			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                        			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                        			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                        			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                        			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                        			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                                        	</g>
+                                        </g>
+                                            </svg>
+                    </div>
+                    <ul>
+                        <li id="menu-program">Меню</li>
+                        <li class="menu-item">
+                            <a href="#" class="see-program">Программа</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="schedule">Расписание</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="photoMenu-adaptive">Фото</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="gratitude">Отзывы</a>
+                        </li>
+                        <li class="telefon">+375 (29) 586-87-87</li>
+                        <li class="call">
+                            <img src="images/telephone.png" alt="telephone">
+                            <div class="ring">Заказать звонок</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="beginning">
+            <div class="container">
+                <h1>Незабываемая поездка
+                    в Каппадокию</h1>
+                <div class="beginning-text">Подари себе яркие впечатления, путешествуя вместе с нами</div>
+                <div class="beginning-action">
+                    <button class="button" id="choose-program">Смотреть программу</button>
+                </div>
+                <div class="look">
+                    <div class="look-text">Посмотрите на путешествие,
+                        которое вас ждет
+                    </div>
+                    <div class="strelka"></div>
+                    <div class="strelka-bok"></div>
+                </div>
+                <div class="beginning-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XPqKcsaXogM?si=Y0ax8H04F-OGivdM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="advantages-title">Почему нам доверяют</div>
+        <div class="container-small">
+            <div class="advantage-item">
+                <div class="advantage-number">1</div>
+                <div class="advantage-text">Мы обеспечиваем <span class="first">комфортные условия</span> трансфера для
+                    наших клиентов
+                </div>
+            </div>
+            <div class="advantage-item">
+                <div class="advantage-number">2</div>
+                <div class="advantage-text" id="text2">Наша компания уже организовала более <span>10.000</span> поездок в
+                    Каппадокию
+                </div>
+            </div>
+            <div class="advantage-item">
+                <div class="advantage-number">3</div>
+                <div class="advantage-text" id="text3">Более <span>200.000</span> клиентов оставили положительные отзывы</div>
+            </div>
+        </div>
+    </section>
+    <section class="programs">
+        <div class="programs-title">Программа тура</div>
+        <div class="container">
+            <div class="program-item wow animate__backInLeft">
+                <div class="program-info">
+                    <div class="program-title">1.<span>Шоу «Турецкая ночь»</span></div>
+                    <div class="program-title-adaptive">1.<span>Шоу «Турецкая ночь»</span></div>
+                    <div class="program-text">Кружащиеся Дервиши, танцевальная постановка в стиле настоящей турецкой
+                        свадьбы, кавказские танцы с огнем и ножами, барабанное шоу и зажигательный танец
+                    </div>
+                    <div class="program-text-adaptive">Кружащиеся Дервиши, танцевальная постановка в стиле настоящей
+                        турецкой
+                        свадьбы,
+                        <span class="dots">...</span>
+                        <span class="more"> кавказские танцы с огнем и ножами, барабанное шоу и зажигательный танец</span>
+                    </div>
+                    <button class="btn-further">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="program-image">
+                    <img src="images/image1.png" alt="image1">
+                </div>
+            </div>
+            <div class="program-item wow animate__backInRight">
+                <div class="program-info">
+                    <div class="program-title">2.<span>Турецкая баня (Хамам)</span></div>
+                    <div class="program-title-adaptive">2.<span>Турецкая баня</span></div>
+                    <div class="program-text">Одним из поистине незабываемых впечатлений от поездки в Турцию является
+                        посещение Хамама. Турецкая баня помогает человеку расслабиться и достичь умиротворения
+                    </div>
+                    <div class="program-text-adaptive">Одним из поистине незабываемых впечатлений от поездки в Турцию
+                        являет
+                        <span class="dots">...</span>
+                        <span class="more">ся посещение Хамама. Турецкая баня помогает человеку расслабиться и достичь умиротворения</span>
+                    </div>
+                    <button class="btn-further">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="program-image">
+                    <img src="images/image2.png" alt="image2">
+                </div>
+            </div>
+            <div class="program-item wow animate__backInLeft">
+                <div class="program-info">
+                    <div class="program-title">3.<span>Каньон Ихлара</span></div>
+                    <div class="program-title-adaptive">3.<span>Каньон Ихлара</span></div>
+                    <div class="program-text">Остановка на смотровой площадке, откуда открывается захватывающий вид на
+                        музей Гёреме, самого известного монастырского комплекса Каппадокии, включенного в список
+                        всемирного
+                        наследия ЮНЕСКО
+                    </div>
+                    <div class="program-text-adaptive">Остановка на смотровой площадке, откуда открывается вид на
+                        музей под открытым небом,
+                        <span class="dots">...</span>
+                        <span class="more"> самого известного монастырского комплекса Каппадокии, включенного в ЮНЕСКО</span>
+                    </div>
+                    <button class="btn-further">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="program-image">
+                    <img src="images/image3.png" alt="image3">
+                </div>
+            </div>
+            <div class="program-item wow animate__backInRight">
+                <div class="program-info">
+                    <div class="program-title">4.</div>
+                    <div class="shar">Полет на воздушном шаре</div>
+                    <div class="program-title-adaptive">4.<span>Полет на воздушном шаре</span></div>
+                    <div class="program-text">Путешествие на воздушном шаре — лучший способ с высоты птичьего полета
+                        насладиться великолепными видами Каппадокии, озаренной первыми лучами солнца
+                    </div>
+                    <div class="program-text-adaptive">Путешествие на воздушном шаре — лучший способ с высоты птичьего
+                        полета
+                        <span class="dots">...</span>
+                        <span class="more">
+                            насладиться великолепными видами Каппадокии, озаренной первыми лучами солнца</span>
+                    </div>
+                    <button class="btn-further">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="program-image">
+                    <img src="images/image4.png" alt="image4">
+                </div>
+            </div>
+            <div class="program-item wow animate__backInLeft">
+                <div class="program-info">
+                    <div class="program-title">5.<span>Долины Каппадокии</span></div>
+                    <div class="program-title-adaptive">5.<span>Долины Каппадокии</span></div>
+                    <div class="program-text">Как и в других долинах Каппадокии вы здесь увидите множество
+                        пещер, уникальных христианских церквей, сохранившиеся до наших дней, ухоженные виноградники и
+                        плодовые деревья
+                    </div>
+                    <div class="program-text-adaptive">Как и в других долинах Каппадокии вы здесь увидите множество
+                        пещер, уникальных христианских
+                        <span class="dots">...</span>
+                        <span class="more">церквей, сохранившиеся до наших дней, ухоженные виноградники и
+                                плодовые деревья</span>
+                    </div>
+                    <button class="btn-further">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="program-image">
+                    <img src="images/image5.png" alt="image5">
+                </div>
+            </div>
+            <div class="program-item wow animate__backInRight">
+                <div class="program-info">
+                    <div class="program-title">6.<span>Конная прогулка</span></div>
+                    <div class="program-title-adaptive">6.<span>Конная прогулка</span></div>
+                    <div class="program-text">Отличная возможность покататься верхом по долинам вдали от цивилизации,
+                        насладиться сказочными пейзажами и познакомиться с традиционной жизнью и культурой Каппадокии
+                    </div>
+                    <div class="program-text-adaptive">Отличная возможность покататься верхом по долинам вдали от
+                        цивилизации,
+                        наслади
+                        <span class="dots">...</span>
+                        <span class="more">ться сказочными пейзажами и познакомиться с традиционной жизнью и культурой Каппадокии</span>
+                    </div>
+                    <button class="btn-further">Читать далее <span>&#10095;</span></button>
+                </div>
+
+                <div class="program-image">
+                    <img src="images/image6.png" alt="image6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices">
+        <div class="prices-title">Что входит в стоимость тура</div>
+        <div class="container-small">
+            <div class="price-item wow animate__backInLeft">
+                <div class="price-number">1</div>
+                <span class="price-number-adaptive">1.</span>
+                <div class="price-text">Проживание 5 ночей в Стамбуле + 2 ночи в Каппадокии</div>
+                <span class="price-text-adaptive">5 ночей в Стамбуле + 2 ночи в Каппадокии</span>
+
+            </div>
+            <div class="price-item wow animate__backInLeft">
+                <div class="price-number">2</div>
+                <span class="price-number-adaptive">2.</span>
+                <div class="price-text">Завтраки и ужины + напитки местного производства</div>
+                <div class="price-text-adaptive">Завтраки и ужины + напитки местного производства</div>
+            </div>
+            <div class="price-item wow animate__backInRight">
+                <div class="price-number">3</div>
+                <span class="price-number-adaptive">3.</span>
+                <div class="price-text">Сопровождение профессиональным гидом</div>
+                <div class="price-text-adaptive">Сопровождение гидом</div>
+            </div>
+            <div class="price-item wow animate__backInLeft">
+                <div class="price-number">4</div>
+                <span class="price-number-adaptive">4.</span>
+                <div class="price-text">Шесть экскурсий по программе</div>
+                <div class="price-text-adaptive">Шесть экскурсий по программе</div>
+            </div>
+            <div class="price-item wow animate__backInLeft">
+                <div class="price-number">5</div>
+                <span class="price-number-adaptive">5.</span>
+                <div class="price-text">Фотосессии от профессионального фотографа</div>
+                <div class="price-text-adaptive">Фотосессии от фотографа</div>
+            </div>
+            <div class="price-item wow animate__backInRight">
+                <div class="price-number">6</div>
+                <span class="price-number-adaptive">6.</span>
+                <div class="price-text">Медицинская страховка + тест на коронавирус</div>
+                <div class="price-text-adaptive">Медицинская страховка + тест на коронавирус</div>
+            </div>
+        </div>
+    </section>
+    <section class="prices-dop">
+        <div class="prices-dop-title">В стоимость тура не входит</div>
+        <div class="container-min-small">
+            <div class="price-dop wow animate__backInLeft">
+                <div class="price-dop-title">1</div>
+                <div class="price-dop-title-adaptive">1.</div>
+                <div class="price-dop-text">Обед + личные расходы</div>
+            </div>
+            <div class="price-dop wow animate__backInRight">
+                <div class="price-dop-title">2</div>
+                <div class="price-dop-title-adaptive">2.</div>
+                <div class="price-dop-text">Чаевые водителю или гиду (по желанию)</div>
+            </div>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="container">
+            <div class="tours-title">Расписание туров</div>
+            <div class="multiple-items">
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">29.07.2021 – 04.08.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 5 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">850 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">04.08.2021 – 10.08.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 9 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">750 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">18.08.2021 – 24.08.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 15 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">650 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">26.08.2021 – 01.09.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 15 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">805 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">04.09.2021 – 10.09.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 10 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">785 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">12.09.2021 – 18.09.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 5 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">715 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">20.09.2021 – 26.09.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 8 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">705 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">28.09.2021 – 02.10.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 12 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">685 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">02.10.2021 – 08.10.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 11 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">675 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">10.10.2021 – 16.10.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 7 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">655 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">18.10.2021 – 24.10.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 13 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">630 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+                <div class="tour-item">
+                    <div class="tour-info">
+                        <div class="tour-info-title">Даты тура</div>
+                        <div class="tour-info-text">24.10.2021 – 30.10.2021</div>
+                        <div class="tour-info-title">Свободно мест</div>
+                        <div class="tour-info-text">Осталось 9 мест</div>
+                        <div class="tour-info-title">Стоимость</div>
+                        <div class="tour-info-text">615 EUR<span>за 1 пассажира</span></div>
+                    </div>
+                    <div class="tour-action">
+                        <a href="#" class="button">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="images-travel">
+        <div class="container">
+            <div class="images-travel-title">Фотографии с наших экскурсий</div>
+            <div class="one-time">
+                <div class="image-travel">
+                    <div class="image-travel1">
+                        <a class="open-popup-link" href="images/foto1.png">
+                            <img src="images/foto1.png" alt="Foto1">
+                        </a>
+                    </div>
+                    <div class="image-travel2">
+                        <a class="open-popup-link" href="images/foto2.png">
+                            <img src="images/foto2.png" alt="Foto2">
+                        </a>
+                    </div>
+                    <div class="image-travel3">
+                        <a class="open-popup-link" href="images/foto3.png">
+                            <img src="images/foto3.png" alt="Foto3">
+                        </a>
+                    </div>
+                    <div class="image-travel4">
+                        <a class="open-popup-link" href="images/foto4.png">
+                            <img src="images/foto4.png" alt="Foto4">
+                        </a>
+                    </div>
+                    <div class="image-travel5">
+                        <a class="open-popup-link" href="images/foto5.png">
+                            <img src="images/foto5.png" alt="Foto5">
+                        </a>
+                    </div>
+                </div>
+                <div class="image-travel">
+                    <div class="image-travel1">
+                        <a class="open-popup-link" href="images/foto6.jpg">
+                            <img src="images/foto6.jpg" alt="Foto6">
+                        </a>
+                    </div>
+                    <div class="image-travel2">
+                        <a class="open-popup-link" href="images/foto7.jpg">
+                            <img src="images/foto7.jpg" alt="Foto7">
+                        </a>
+                    </div>
+                    <div class="image-travel3">
+                        <a class="open-popup-link" href="images/foto8.jpg">
+                            <img src="images/foto8.jpg" alt="Foto8">
+                        </a>
+                    </div>
+                    <div class="image-travel4">
+                        <a class="open-popup-link" href="images/foto9.jpg">
+                            <img src="images/foto9.jpg" alt="Foto9">
+                        </a>
+                    </div>
+                    <div class="image-travel5">
+                        <a class="open-popup-link" href="images/foto10.jpg">
+                            <img src="images/foto10.jpg" alt="Foto10">
+                        </a>
+                    </div>
+                </div>
+                <div class="image-travel">
+                    <div class="image-travel1">
+                        <a class="open-popup-link" href="images/foto11.jpg">
+                            <img src="images/foto11.jpg" alt="Foto11">
+                        </a>
+                    </div>
+                    <div class="image-travel2">
+                        <a class="open-popup-link" href="images/foto12.jpg">
+                            <img src="images/foto12.jpg" alt="Foto12">
+                        </a>
+                    </div>
+                    <div class="image-travel3">
+                        <a class="open-popup-link" href="images/foto13.jpg">
+                            <img src="images/foto13.jpg" alt="Foto13">
+                        </a>
+                    </div>
+                    <div class="image-travel4">
+                        <a class="open-popup-link" href="images/foto14.jpg">
+                            <img src="images/foto14.jpg" alt="Foto14">
+                        </a>
+                    </div>
+                    <div class="image-travel5">
+                        <a class="open-popup-link" href="images/foto15.jpg">
+                            <img src="images/foto15.jpg" alt="Foto15">
+                        </a>
+                    </div>
+                </div>
+                <div class="image-travel">
+                    <div class="image-travel1">
+                        <a class="open-popup-link" href="images/foto16.jpg">
+                            <img src="images/foto16.jpg" alt="Foto16">
+                        </a>
+                    </div>
+                    <div class="image-travel2">
+                        <a class="open-popup-link" href="images/foto17.jpg">
+                            <img src="images/foto17.jpg" alt="Foto17">
+                        </a>
+                    </div>
+                    <div class="image-travel3">
+                        <a class="open-popup-link" href="images/foto18.png">
+                            <img src="images/foto18.png" alt="Foto18">
+                        </a>
+                    </div>
+                    <div class="image-travel4">
+                        <a class="open-popup-link" href="images/foto19.jpg">
+                            <img src="images/foto19.jpg" alt="Foto19">
+                        </a>
+                    </div>
+                    <div class="image-travel5">
+                        <a class="open-popup-link" href="images/foto20.jpg">
+                            <img src="images/foto20.jpg" alt="Foto20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="images-travel-adaptive">
+        <div class="container">
+            <div class="images-travel-title">Фотографии с наших экскурсий</div>
+            <div class="one-time">
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto1.png">
+                        <img src="images/foto1.png" alt="Foto1">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto5.png">
+                        <img src="images/foto5.png" alt="Foto5">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto6.jpg">
+                        <img src="images/foto6.jpg" alt="Foto6">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto10.jpg">
+                        <img src="images/foto10.jpg" alt="Foto10">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto11.jpg">
+                        <img src="images/foto11.jpg" alt="Foto11">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto15.jpg">
+                        <img src="images/foto15.jpg" alt="Foto15">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto16.jpg">
+                        <img src="images/foto16.jpg" alt="Foto16">
+                    </a>
+                </div>
+                <div class="image-travel">
+                    <a class="open-popup-link" href="images/foto20.jpg">
+                        <img src="images/foto20.jpg" alt="Foto20">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container-small">
+            <div class="reviews-title">Отзывы наших клиентов</div>
+            <div class="responsive">
+                <div class="review-item">
+                    <div class="review-info">
+                        <div class="review-image">
+                            <img src="images/review1.png" alt="review1">
+                        </div>
+                        <div class="review-data">
+                            <div class="review-name">Валерия, 25 лет</div>
+                            <div class="review-city">Минск, Беларусь</div>
+                        </div>
+                    </div>
+                    <div class="review-text">Очень красивый и уютный городок. Просто гулять по городу уже масса
+                        впечатлений — дома в горах, пещеры, множество заведений, украшены по-своему и все в общем
+                        стиле.
+                        Тур оператора выбрала по совету знакомых и осталась очень довольна. Очень насыщенная и
+                        интересная программа. Обязательно буду советовать вашу компанию своим знакомым. Спасибо за
+                        незабываемые впечатления!
+                    </div>
+                    <div class="review-text-adaptive">Очень красивый и уютный городок. Просто гулять по городу уже масса
+                        впечатлений — дома в горах, пещеры, множество заведений, украшены по-своему и все в общем
+                        стиле <span class="dots-dop">...</span>
+                        <span class="more-dop">
+                                    Тур оператора выбрала по совету знакомых и осталась очень довольна. Очень насыщенная и
+                                    интересная программа. Обязательно буду советовать вашу компанию своим знакомым. Спасибо за
+                                        незабываемые впечатления!</span>
+                    </div>
+                    <button class="btn-further-dop">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="review-item">
+                    <div class="review-info">
+                        <div class="review-image">
+                            <img src="images/review2.png" alt="review2">
+                        </div>
+                        <div class="review-data">
+                            <div class="review-name">Олег, 34 года</div>
+                            <div class="review-city">Москва, Россия</div>
+                        </div>
+                    </div>
+                    <div class="review-text">Спасибо за четко организованный тур и насыщенную программу! Ни разу не
+                        пожалел, что выбрал вашу компанию. Полеты на воздушном шаре действительно оказались
+                        незабываемыми. Так же спасибо за услугу профессионального фотографа, теперь эти моменты
+                        счастья
+                        останутся со мной на всю жизнь!
+                    </div>
+                    <div class="review-text-adaptive">Спасибо за четко организованный тур и насыщенную программу! Ни
+                        разу не пожалел, что выбрал вашу компанию. Полеты на воздушном шаре действительно оказались
+                        незабываемыми.
+                        <span class="dots-dop">...</span>
+                        <span class="more-dop"> Так же спасибо за услугу профессионального фотографа, теперь эти моменты
+                                    счастья останутся со мной на всю жизнь!</span>
+                    </div>
+                    <button class="btn-further-dop">Читать далее <span>&#10095;</span></button>
+                </div>
+
+                <div class="review-item">
+                    <div class="review-info">
+                        <div class="review-image">
+                            <img src="images/review3.jpg" alt="review3">
+                        </div>
+                        <div class="review-data">
+                            <div class="review-name">Юлия, 42 года</div>
+                            <div class="review-city">Нижний Новгород, Россия</div>
+                        </div>
+                    </div>
+                    <div class="review-text"> С погодой очень повезло. Жили в Гёреме рано утром шары летают над
+                        городом,
+                        очень красиво. Не спешите за ранее покупать экскурсию на шары. Купите на много дороже. На
+                        улице
+                        купили за 170 евро, с нами в автобусе были люди кто на этот же шар покупал за 200-240. Также
+                        экскурсию на Зелёный тур купили за 60. Торговаться можно и нужно!
+                    </div>
+                    <div class="review-text-adaptive">С погодой очень повезло. Жили в Гёреме рано утром шары летают над
+                        городом, очень красиво. Не спешите за ранее покупать экскурсию на шары. Купите на много дороже.
+                        На
+                        улице
+                        <span class="dots-dop">...</span>
+                        <span class="more-dop">купили за 170 евро, с нами в автобусе были люди кто на этот же шар покупал за 200-240. Также
+                                экскурсию на Зелёный тур купили за 60. Торговаться можно и нужно!</span>
+                    </div>
+                    <button class="btn-further-dop">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="review-item">
+                    <div class="review-info">
+                        <div class="review-image">
+                            <img src="images/review4.jpg" alt="review4">
+                        </div>
+                        <div class="review-data">
+                            <div class="review-name">Александр, 35 лет</div>
+                            <div class="review-city">Санкт-Петербург, Россия</div>
+                        </div>
+                    </div>
+                    <div class="review-text"> В Каппадокию собрался совершенно случайно, никогда не знал про это
+                        место)
+                        Когда увидел фото в интернете, не поверил, что это реальное место, все выглядело, как-будто
+                        в
+                        сказке. Приехав на место, убедился, что это действительно сказка, в реальной жизни)
+                        В этом волшебном месте есть гораздо больше, местность, пейзажи, виды и конечно же воздушные
+                        шары,
+                        много воздушных шаров )))
+                    </div>
+                    <div class="review-text-adaptive"> В Каппадокию собрался совершенно случайно, никогда не знал про
+                        это
+                        место)
+                        Когда увидел фото в интернете, не поверил, что это реальное место, все выглядело, как
+                        в
+                        сказке.
+                        <span class="dots-dop">...</span>
+                        <span class="more-dop">  Приехав на место убедился, что это действительно сказка, в реальной жизни)
+                                В этом волшебном месте есть гораздо больше, местность, пейзажи, виды и конечно же воздушные
+                                шары,
+                                много воздушных шаров )))</span>
+                    </div>
+                    <button class="btn-further-dop">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="review-item">
+                    <div class="review-info">
+                        <div class="review-image">
+                            <img src="images/review5.jpg" alt="review5">
+                        </div>
+                        <div class="review-data">
+                            <div class="review-name">Олеся, 25 лет</div>
+                            <div class="review-city">Воронеж, Россия</div>
+                        </div>
+                    </div>
+                    <div class="review-text"> Когда мы были в Турции, побывали на экскурсии в Каппадокии. Это
+                        необычное
+                        место, исторически важное для Турции, находится в центре страны. Объединяет
+                        современные города и поселки. В этой местности удивляют каменные глыбы, в форме
+                        грибов. Давным-давно здесь были вулканы, а из извергавшейся лавы в последующем и
+                        образовались
+                        такие скульптуры.
+                    </div>
+                    <div class="review-text-adaptive"> Когда мы были в Турции, побывали на экскурсии в Каппадокии. Это
+                        необычное
+                        место, исторически важное для Турции, находится в центре страны. Объединяет
+
+                        <span class="dots-dop">...</span>
+                        <span class="more-dop"> современныегорода и поселки. В этой местности удивляют каменные глыбы, в форме
+                                грибов. Давным-давно здесь были вулканы, а из извергавшейся лавы в последующем и
+                                образовались
+                                такие скульптуры.</span>
+                    </div>
+                    <button class="btn-further-dop">Читать далее <span>&#10095;</span></button>
+                </div>
+                <div class="review-item">
+                    <div class="review-info">
+                        <div class="review-image">
+                            <img src="images/review6.jpg" alt="review6">
+                        </div>
+                        <div class="review-data">
+                            <div class="review-name">Алексей, 30 лет</div>
+                            <div class="review-city">Краснодар, Россия</div>
+                        </div>
+                    </div>
+                    <div class="review-text"> Довелось побывать в Каппадокии посредством факультативной экскурсии -
+                        ни
+                        на йоту не пожалел, что заказал её, ведь мгновения, проведенные там были не только самыми
+                        запоминающимися за весь отдых, то время навсегда осталось в воспоминаниях. Причудливые
+                        формы,
+                        которые созданы без влияния человека заставляют задуматься о высшей, неземной силе, которая
+                        их
+                        создала.
+                    </div>
+                    <div class="review-text-adaptive"> Довелось побывать в Каппадокии посредством факультативной
+                        экскурсии -
+                        ни
+                        на йоту не пожалел, что заказал её, ведь мгновения, проведенные там были не только самыми
+
+                        <span class="dots-dop">...</span>
+                        <span class="more-dop">  запоминающимися за весь отдых, то время навсегда осталось в воспоминаниях. Причудливые
+                                формы,
+                                которые созданы без влияния человека заставляют задуматься о высшей, неземной силе, которая
+                                их
+                                создала.</span>
+                    </div>
+                    <button class="btn-further-dop">Читать далее <span>&#10095;</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order-footer">
+        <div class="order">
+            <div class="container">
+                <div class="order-form">
+                    <div class="first-form">
+                        <div class="order-form-title">Отправляйтесь в свое путешествие
+                            вместе с нами!
+                        </div>
+                        <div class="order-form-message">Заполните форму заявки и ожидайте звонка
+                            нашего менеджера в течении 10 минут
+                        </div>
+                        <div class="order-input">
+                            <input type="text" class="input-name" placeholder="Ваше имя">
+                            <div class="error-input">Введите ваше имя</div>
+                            <input type="text" class="input-phone" placeholder="Ваш телефон">
+                            <div class="error-input">Введите ваш телефон</div>
+                        </div>
+                        <button class="button-order" id="buttonOrder">Отправить заявку</button>
+                    </div>
+                    <div class="modal-popup" id="modalPopup">
+                        <div id="close-popup">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                                        <g>
+                                        	<g>
+                                        		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                        			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                        			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                        			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                        			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                        			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                        			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                                        	</g>
+                                        </g>
+                                            </svg>
+                        </div>
+                        <div class="modal-content-popup">
+                            <div class="modal-title-popup">Спасибо за заявку!</div>
+                            <div class="modal-text-popup">После обработки данных наш менеджер свяжется с вами для
+                                подтверждения данных и выбора тура
+                            </div>
+                            <button class="button-modal-popup">Вернуться на главную</button>
+                        </div>
+                        <div class="modal-popup-image">
+                            <img src="images/modal-popup-polnyi.png" alt="popup-image">
+                        </div>
+                        <div class="modal-popup-image-adaptive">
+                            <img src="images/modal-popup.png" alt="popup-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="order-image">
+                    <img src="images/order-image.png" alt="order-image">
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img src="images/balloon.png" alt="Logo">
+                    </div>
+                    <div class="logo-text">
+                        <img src="images/cappadocia.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="icons-title">Мы в соц. сетях</div>
+                    <div class="icons-vk">
+                        <div class="vk">
+                            <svg viewBox="1 -104 511.99902 511" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m456.738281 202.101562-.277343-.257812c-4.371094-4.035156-17.761719-17.066406-22.277344-22.761719-5.300782-7.105469-4.078125-11.761719-.105469-18.738281 5.019531-8.816406 15.078125-22.339844 25.722656-36.660156 34.09375-45.851563 56.105469-77.59375 51.574219-100.140625l-2.441406-12.042969-125.910156.054688c-.441407 1.1875-7.011719 30.050781-34.738282 79.199218-20.105468 35.636719-33.292968 46.832032-37.9375 48.808594l-.71875-.21875c-1.511718-1.867188-4.152344-6.90625-5.238281-19.894531-1.132813-13.605469-.128906-30.078125.84375-46.007813 1.136719-18.679687 2.117187-34.8125-.230469-46.355468l-3.824218-18.804688c-4.621094-.738281-21.539063-7.265625-68.675782-7.761719-40.808594-.417969-52.796875 5.476563-58.683594 10.671875l-19.472656 17.183594 24.613282 8.28125c9.367187 3.152344 12.476562 6.789062 15.027343 24.816406 1.664063 11.75 2.535157 31.496094.738281 49.125-2.582031 25.277344-8.773437 29.980469-9.09375 30.230469-1.066406-.363281-10.109374-4.320313-25.808593-37.511719-10.890625-23.019531-20.4375-50.25-27.414063-70.132812-7.984375-22.769532-6.546875-17.921875-10.597656-28.679688l-121.8125-.003906 7.882812 20.390625c32.863282 85.089844 63.015626 151.539063 103.367188 199.265625 44.582031 52.730469 99.988281 80.339844 174.621094 80.339844h15v-15c0-14.023438 1.160156-24.121094 3.648437-31.777344 1.519531-4.664062 3.539063-8.519531 5.660157-12.5625 3.148437-5.953125 6.226562-8.503906 7.90625-8.882812 1.523437-.347657 4.203124.769531 7.171874 2.984374 8.523438 6.355469 15.289063 14.707032 22.453126 23.550782 10.335937 12.761718 21.023437 25.953125 37.980468 34.589844 9.265625 4.71875 26.25 7.101562 35.597656 7.101562 2.472657 0 90.601563-.003906 90.710938-.003906l-.644531-15.617188c-.960938-23.351562-19.339844-52.550781-54.617188-86.777344zm-34.867187 72.394532h-.242188c-6.445312.105468-18.746094-2.007813-22.324218-3.828125-11.273438-5.742188-19.152344-15.472657-28.28125-26.738281-8.011719-9.894532-16.296876-20.125-27.832032-28.722657-9.328125-6.957031-17.800781-8.992187-24.527344-8.992187-2.6875 0-5.101562.324218-7.171874.792968-7.808594 1.757813-18.976563 7.375-27.855469 24.167969-2.503907 4.777344-5.34375 10.1875-7.644531 17.265625-2.410157 7.40625-3.910157 15.636719-4.625 25.648438-56.242188-3.195313-100.128907-25.445313-137.207032-69.300782-34.472656-40.777343-61.59375-97.8125-90.316406-170.300781 2.078125 0 54.152344.007813 57.226562.007813.941407 2.644531 1.957032 5.542968 3.035157 8.613281 7.519531 21.449219 17.820312 50.820313 29.957031 75.867187 17.378906 35.867188 33.25 51.863282 51.457031 51.863282 9.089844 0 17.242188-3.851563 23.574219-11.144532 9.027344-10.394531 14.269531-27.550781 16.027344-52.453124 1.386718-19.636719.097656-39.195313-1.425782-49.972657-1.257812-8.867187-3.050781-18.175781-7.425781-26.515625 18.644531-.839844 43.609375.488282 59.425781 2.757813 1.4375 7.828125.5 23.214843-.40625 38.101562-2.191406 35.960938-4.453124 73.070313 14.582032 90.433594 3.347656 3.054687 6.898437 4.691406 7 4.757813l9.6875 2.972656c3.738281-1.152344 25.390625 9.832031 66.390625-61.71875 13.136719-22.925782 25.367187-49.34375 31.953125-66.597656 15.273437-.03125 67.308594.027343 73.421875.035156-8.660157 19.058594-29.183594 46.242187-42.597657 64.285156-11.695312 15.726562-21.792968 29.308594-27.71875 39.714844-11.007812 19.332031-9.15625 36.5625 2.308594 51.761718l.179688.234376c6.398437 8.144531 22.199218 23.222656 25.476562 26.261718 23.742188 23.050782 35.183594 39.609375 40.628906 50.738282h-54.730468zm0 0"/>
+                            </svg>
+                        </div>
+                        <span>Vkontakte</span>
+                    </div>
+                    <div class="icons-instagram">
+                        <div class="instagram">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 169.063 169.063"
+                                 style="enable-background:new 0 0 169.063 169.063;" xml:space="preserve"><g><path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752 c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407 c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752 c17.455,0,31.656,14.201,31.656,31.655V122.407z"/><path
+                                    d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561 C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561 c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/><path
+                                    d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78 c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78 C135.661,29.421,132.821,28.251,129.921,28.251z"/></g></svg>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+                    <div class="icons-facebook">
+                        <div class="facebook">
+                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m489.410156 21.847656c-14.410156-14.089844-33.378906-21.847656-53.410156-21.847656h-361c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75h362c41.355469 0 75-33.644531 75-75v-362c0-20.039062-8.023438-38.914062-22.589844-53.152344zm-218.410156 249.152344h-30v-30h30c8.285156 0 15-6.714844 15-15 0-41.140625-.003906-59.957031-.003906-68.613281-.003906-15.933594.019531-33.289063 15.582031-46.605469 11.863281-10.148438 26.984375-16.277344 47.59375-19.292969 21.742187-3.175781 43.808594-2.183593 67.113281 3.046875-1.769531 11.910156-3.867187 26.019532-5.449218 36.652344-8.84375-1.792969-24.019532-3.242188-36.441407-1.136719-27.578125 4.664063-43.394531 21.777344-43.394531 46.949219v49c0 8.285156 6.714844 15 15 15h55.789062l-7.5 30h-48.289062c-8.285156 0-15 6.714844-15 15v196h-45v-196c0-8.285156-6.714844-15-15-15zm211 166c0 24.8125-20.1875 45-45 45h-76v-181h45c6.882812 0 12.882812-4.683594 14.550781-11.363281l15-60c1.121094-4.480469.113281-9.226563-2.726562-12.867188-2.84375-3.640625-7.207031-5.769531-11.824219-5.769531h-60v-34c0-6.898438 1.421875-14.5 18.40625-17.375 13.289062-2.25 25.164062.71875 35.640625 3.34375 5.035156 1.257812 10.453125 3.175781 16.628906-1.003906 3.476563-2.355469 5.808594-6.058594 6.429688-10.210938 0 0 6.738281-45.269531 9.84375-66.199218 1.105469-7.453126-3.484375-14.570313-10.734375-16.632813-29.296875-8.332031-65.132813-11.070313-92.183594-7.117187-26.460938 3.871093-46.601562 12.1875-62.957031 26.183593-22.753907 19.46875-25.578125 44.449219-25.871094 61.484375-.007813.347656-.003906 30.648438-.003906 61.527344h-30.199219c-8.285156 0-15 6.714844-15 15v60c0 8.285156 6.714844 15 15 15h30v181h-181c-24.8125 0-45-20.1875-45-45v-362c0-24.8125 20.1875-45 45-45h361c24.933594 0 46 20.609375 46 45zm0 0"/>
+                            </svg>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <div class="mailing">
+                    <div class="mailing-title">Подписка на рассылку</div>
+                    <div class="mailing-text">Подпишитесь на рассылку новостей и будьте в курсе всех наших выгодных
+                        предложений!
+                    </div>
+                    <div class="mailing-btn">
+                        <input type="text" class="input" id="email" placeholder="Введите ваш e-mail">
+                        <button class="btn" id="btnMail">
+                            <img src="images/strpravo1.png">
+                        </button>
+                    </div>
+                    <div class="modal" id="modal">
+                        <div class="modal-content">
+                            <div class="modal-text">На вашу почту выслана ссылка, перейдите по ней, чтобы быть в курсе
+                                наших
+                                выгодных
+                                предложений!
+                            </div>
+                            <button class="modal-btn" id="close">OK</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="telephone">
+                    <div class="phone">
+                        +375 (29) 586-87-87
+                    </div>
+                    <button class="ring">Заказать звонок</button>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <div class="ballon1">
+        <img src="images/balloon1.png" alt="ballon1">
+    </div>
+    <div class="ballon2">
+        <img src="images/balloon2.png" alt="ballon2">
+    </div>
+    <div class="ballon3">
+        <img src="images/balloon3.png" alt="ballon3">
+    </div>
+</section>
+<div class="popup">
+    <div class="container">
+        <div class="order-form-popup">
+            <div class="first-form-popup">
+                <div class="order-form-title">Отправляйтесь в свое путешествие
+                    вместе с нами!
+                </div>
+                <div class="order-form-message">Заполните форму и ожидайте звонка
+                    нашего менеджера в течении 10 минут
+                </div>
+                <div class="order-input">
+                    <input type="text" class="input-name-popup" placeholder="Ваше имя">
+                    <div class="error-input-popup">Введите ваше имя</div>
+                    <input type="text" class="input-phone-popup" placeholder="Ваш телефон">
+                    <div class="error-input-popup">Введите ваш телефон</div>
+                </div>
+                <button class="button-order-popup">Отправить заявку</button>
+            </div>
+            <div class="modal-popup" id="modalPopup2">
+                <div id="close-popup2">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                                        <g>
+                                        	<g>
+                                        		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                        			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                        			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                        			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                        			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                        			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                        			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                                        	</g>
+                                        </g>
+                                            </svg>
+                </div>
+                <div class="modal-content-popup">
+                    <div class="modal-title-popup">Спасибо за заявку!</div>
+                    <div class="modal-text-popup">Мы свяжемся с вами в ближайшее время!
+                    </div>
+                    <button class="button-modal-popup2">Вернуться на главную</button>
+                </div>
+                <div class="modal-popup-image">
+                    <img src="images/modal-popup-polnyi.png" alt="popup-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/jquery-3.7.1.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/jquery.inputmask.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
